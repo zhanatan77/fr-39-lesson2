@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Libre Franklin',sans-serif;
+}
+button {
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: head 2s ease-in-out;
+}
+.header-title a{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+#header {
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+.heder-title a{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 15px;
+}
+
+/*LOGO*/
+
+.logo {
+    display: flex;
+    align-items: start;
+}
+.logo img {
+    padding: 40px 40px  40px 0;
+}
+
+
+/*HERO-LOGO*/
+
+
+.hero-logo h2{
+    padding: 50px 0 40px 0;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.hero-logo h1{
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.hero-logo p{
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+.hero-logo h3 {
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+/*#contact1{*/
+/*    padding: 50px 0;*/
+
+/*}*/
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3px 0;
+}
+/*JACOB*/
+
+.jacob img {
+    width: 387px;
+    height: 254px;
+    padding: 20px 0;
+}
+.jacob h2 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.jacob h1{
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.jacob h3 {
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.contact{
+    position: relative;
+    padding: 40px 0;
+    border-bottom: 2px solid  #E6E6E6;
+}
+/*.global{*/
+/*    position: absolute;*/
+/*    padding: 2px 610px;*/
+/*    background: rgba(6, 131, 220, 0.62);*/
+/*    bottom: -10px;*/
+/*}*/
+
+
+.blocks {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+
+/*BLOCK*/
+
+
+
+.better h4 {
+    margin: 50px 0;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.block img {
+    padding: 10px 0;
+    width: 285px;
+    height: 187px;
+}
+.block h2{
+    padding: 20px 0 20px 0;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.block h1{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.block h3{
+    padding: 20px 0 60px 20px;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+#hero button {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/*RULER*/
+
+.ruler{
+    margin: 40px 0;
+    width: 1230px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: #E6E6E6;
+    border-radius: 1px;
+}
+
+/*LINK*/
+.link {
+    padding: 30px 0  30px 3px;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+/*CART*/
+
+.jakob {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cart img {
+    width: 590px;
+    height: 387px;
+}
+.cart h2{
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.cart h1 {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.cart h3 {
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/*FOOTER*/
+
+#footer{
+
+    background: #141414;
+}
+.footer {
+    display: flex;
+    align-items: start;
+}
+
+.footer h1 {
+    padding: 70px 0 60px 0;
+    font-weight: 900;
+    color: #fffdfd;
+}
+.footer h3{
+    padding: 70px 0 60px 0;
+    margin-left: 30px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+/*RULER*/
+
+.ruler{
+    margin: 40px 0;
+    width: 1220px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: #E6E6E6;
+    border-radius: 1px;
+}
+
+/*LAIN*/
+.lain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lain h1 {
+    padding: 40px 0;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.lain h3 {
+    padding: 40px 0;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*DSI*/
+
+.dsi h2 {
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.dsi h1 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/*liv*/
+.lev button {
+    /*width: 221px;*/
+    /*height: 48px;*/
+    background: #fffdfd;
+    border: 1px solid #000000;
+    border-radius: 0;
+}
+.lev button1 {
+    /*width: 221px;*/
+    /*height: 48px;*/
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 0;
+    color: #fffdfd;
+}
+
+/*ABOUT*/
+.link {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+
+}
+
+/*ABOUT*/
+.about h2 {
+    padding: 70px 0 30px 0;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.about h1 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.about h3 {
+    padding: 20px 0 30px 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.about h4{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
